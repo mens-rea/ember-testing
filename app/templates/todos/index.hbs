@@ -1,0 +1,14 @@
+{{outlet}}
+
+<h5>List of tasks</h5>
+
+<table class="list">
+  <tbody>
+    {{#each model as |todo|}}
+      <tr>
+        <td class="{{todo.completed}}">{{todo.task}}</td>
+        <td>{{todo.completed}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+.container{
+    margin-top: 30px;
+}
+table{
+    margin: 0 auto;
+    width: 400px;
+}
+table tr td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+.list td.true{
+    background-color: lightgreen;
+}
+.list td.false{
+    background-color: lightcoral;
+}
